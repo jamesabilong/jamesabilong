@@ -1,0 +1,54 @@
+<svg width="1400" height="960" viewBox="0 0 1400 960" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Full-stack developer workstation</title>
+  <desc id="desc">A stylized workstation with application panels, code windows, database nodes, and deployment cards.</desc>
+  <rect width="1400" height="960" fill="#F6FAFB"/>
+  <rect x="0" y="0" width="1400" height="960" fill="url(#grid)" opacity="0.42"/>
+  <path d="M860 121C1032 94 1237 167 1301 340C1363 508 1272 733 1091 803C916 871 718 762 655 598C588 424 681 149 860 121Z" fill="#DCEDE7"/>
+  <path d="M157 685C246 572 379 525 497 584C613 643 647 790 572 865C499 940 327 924 220 850C134 790 112 743 157 685Z" fill="#FFF1E8"/>
+  <rect x="260" y="196" width="842" height="520" rx="28" fill="#1F2933"/>
+  <rect x="292" y="232" width="778" height="430" rx="18" fill="#FDFEFE"/>
+  <rect x="326" y="268" width="258" height="358" rx="18" fill="#F3F7F8"/>
+  <rect x="618" y="268" width="420" height="166" rx="18" fill="#EAF4F0"/>
+  <rect x="618" y="460" width="228" height="166" rx="18" fill="#FFF6EF"/>
+  <rect x="872" y="460" width="166" height="166" rx="18" fill="#F3F7F8"/>
+  <circle cx="334" cy="246" r="9" fill="#C85D4B"/>
+  <circle cx="362" cy="246" r="9" fill="#B7791F"/>
+  <circle cx="390" cy="246" r="9" fill="#2F7D61"/>
+  <rect x="356" y="304" width="164" height="16" rx="8" fill="#1F2933"/>
+  <rect x="356" y="342" width="196" height="12" rx="6" fill="#82A094"/>
+  <rect x="356" y="374" width="142" height="12" rx="6" fill="#C85D4B"/>
+  <rect x="356" y="406" width="178" height="12" rx="6" fill="#0F8C8C"/>
+  <rect x="356" y="438" width="118" height="12" rx="6" fill="#B7791F"/>
+  <rect x="356" y="512" width="178" height="54" rx="12" fill="#FFFFFF"/>
+  <rect x="382" y="532" width="94" height="12" rx="6" fill="#D8E0E8"/>
+  <circle cx="681" cy="333" r="38" fill="#2F7D61"/>
+  <circle cx="786" cy="333" r="38" fill="#0F8C8C"/>
+  <circle cx="891" cy="333" r="38" fill="#C85D4B"/>
+  <path d="M719 333H748M824 333H853" stroke="#1F2933" stroke-width="12" stroke-linecap="round"/>
+  <rect x="656" y="382" width="316" height="14" rx="7" fill="#82A094"/>
+  <rect x="650" y="502" width="154" height="16" rx="8" fill="#1F2933"/>
+  <rect x="650" y="540" width="126" height="12" rx="6" fill="#C85D4B"/>
+  <rect x="650" y="572" width="158" height="12" rx="6" fill="#0F8C8C"/>
+  <rect x="650" y="604" width="92" height="12" rx="6" fill="#B7791F"/>
+  <circle cx="955" cy="519" r="25" fill="#2F7D61"/>
+  <rect x="925" y="567" width="60" height="12" rx="6" fill="#D8E0E8"/>
+  <rect x="913" y="595" width="84" height="12" rx="6" fill="#D8E0E8"/>
+  <path d="M190 742H1195" stroke="#1F2933" stroke-width="22" stroke-linecap="round"/>
+  <path d="M501 742L443 875H942L884 742H501Z" fill="#2E3944"/>
+  <path d="M533 775H853L874 839H505L533 775Z" fill="#D8E0E8"/>
+  <rect x="1090" y="360" width="170" height="242" rx="24" fill="#FFFFFF" stroke="#D8E0E8" stroke-width="5"/>
+  <rect x="1121" y="398" width="108" height="15" rx="7.5" fill="#1F2933"/>
+  <rect x="1121" y="439" width="70" height="70" rx="18" fill="#EAF4F0"/>
+  <path d="M1143 474H1169M1156 461V487" stroke="#2F7D61" stroke-width="9" stroke-linecap="round"/>
+  <rect x="1121" y="537" width="108" height="12" rx="6" fill="#D8E0E8"/>
+  <rect x="1121" y="565" width="76" height="12" rx="6" fill="#D8E0E8"/>
+  <rect x="157" y="326" width="145" height="162" rx="22" fill="#FFFFFF" stroke="#D8E0E8" stroke-width="5"/>
+  <rect x="185" y="363" width="88" height="14" rx="7" fill="#1F2933"/>
+  <rect x="185" y="402" width="60" height="12" rx="6" fill="#C85D4B"/>
+  <rect x="185" y="432" width="82" height="12" rx="6" fill="#0F8C8C"/>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#D8E0E8" stroke-width="1"/>
+    </pattern>
+  </defs>
+</svg>
