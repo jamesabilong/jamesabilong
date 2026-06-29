@@ -2,11 +2,14 @@ import { useEffect, useRef, useState } from "react";
 import { NavLink, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { routes, resumePath } from "../lib/routes";
+import { useTheme } from "../lib/useTheme";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const mainRef = useRef<HTMLElement>(null);
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     setIsMenuOpen(false);
@@ -43,6 +46,8 @@ export function Layout() {
           </a>
         </nav>
       </header>
+
+      <ThemeToggle theme={theme} onToggle={toggleTheme} />
 
       <main ref={mainRef} id="app" tabIndex={-1}>
         <Routes>
