@@ -345,7 +345,8 @@ dd {
 }
 
 .tag-list,
-.skill-card ul {
+.skill-card ul,
+.experience-projects {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -384,7 +385,36 @@ dd {
 .timeline {
   display: grid;
   gap: 16px;
-  max-width: 900px;
+  max-width: 1060px;
+}
+
+.timeline-company {
+  margin: -2px 0 18px;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.experience-projects {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+}
+
+.experience-projects li {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.experience-projects strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--ink);
+}
+
+.experience-projects p {
+  margin: 0;
 }
 
 .contact-actions {
