@@ -1,6 +1,6 @@
 import { PageShell } from "../components/PageShell";
 import { ProjectCard } from "../components/ProjectCard";
-import { projects } from "../data";
+import { projects, personalProjects } from "../data";
 import { usePageMeta } from "../lib/usePageMeta";
 
 export function Projects() {
@@ -12,6 +12,16 @@ export function Projects() {
         {projects.map((project) => (
           <ProjectCard key={project.name} project={project} />
         ))}
+      </div>
+
+      <div className="personal-section">
+        <p className="personal-eyebrow">Personal projects</p>
+        <h2 className="personal-title">Side builds</h2>
+        <div className="project-grid">
+          {personalProjects.map((project) => (
+            <ProjectCard key={project.name} project={project} />
+          ))}
+        </div>
       </div>
     </PageShell>
   );

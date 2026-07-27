@@ -19,10 +19,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
           <li key={item}>{item}</li>
         ))}
       </ul>
-      <a className="text-link" href={project.link} target="_blank" rel="noreferrer">
-        Open project
-        <ArrowRight aria-hidden="true" />
-      </a>
+      {project.link && (
+        <a className="text-link" href={project.link} target="_blank" rel="noreferrer">
+          Open project
+          <ArrowRight aria-hidden="true" />
+        </a>
+      )}
     </article>
   );
 }

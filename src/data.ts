@@ -3,7 +3,6 @@ export const profile = {
   role: "Software Developer",
   location: "Apas, Cebu City",
   email: "jamesabilong@gmail.com",
-  github: "https://github.com/kraim21",
   linkedin: "https://www.linkedin.com/in/jamesabilong-b9724b164/",
   currentFocus: "React, Node.js, API development, database management, and UI optimization",
   collaboration: "freshprice.philwatch.com",
@@ -109,6 +108,27 @@ export const skills: SkillGroup[] = [
   { group: "Professional", items: ["Communication", "Time Management", "Trainability", "Client Requirements"] },
 ];
 
+export const personalProjects: Project[] = [
+  {
+    name: "Sugilanon / PhilWatch",
+    type: "Personal project",
+    description:
+      "A Next.js community publishing platform for Philippine local news, article summaries, and public-interest guides — with earthquake monitoring, category browsing, and an admin content panel.",
+    tech: ["Next.js", "React", "Node.js", "Docker", "TypeScript"],
+    status: "Live",
+    link: "",
+  },
+  {
+    name: "FreshPrice",
+    type: "Personal project",
+    description:
+      "A web application for monitoring and tracking fresh produce prices across Philippine wet markets, helping households compare prices and budget their grocery spending.",
+    tech: ["React 19", "TypeScript", "Node.js", "PostgreSQL", "Sequelize"],
+    status: "Live",
+    link: "https://freshprice.philwatch.com",
+  },
+];
+
 export const projects: Project[] = [
   {
     name: "Lulu/Ciao Live Streaming App",
@@ -117,7 +137,7 @@ export const projects: Project[] = [
       "Customized live streaming application work covering responsive ReactJS frontend development and backend feature implementation.",
     tech: ["ReactJS", "Node.js", "API Development"],
     status: "FDCI",
-    link: profile.github,
+    link: "",
   },
   {
     name: "MacheTalk API Optimization",
@@ -126,7 +146,7 @@ export const projects: Project[] = [
       "API development and optimization work focused on interoperability, faster response times, and better third-party application integration.",
     tech: ["REST APIs", "Backend", "Integration"],
     status: "FDCI",
-    link: profile.github,
+    link: "",
   },
   {
     name: "Rental Application Migration",
@@ -135,7 +155,7 @@ export const projects: Project[] = [
       "Screen design, implementation, and testing for migrating an existing VBA application to a modern C# and .NET Core system.",
     tech: ["C#", ".NET Core", "Testing"],
     status: "AWS PH",
-    link: profile.github,
+    link: "",
   },
   {
     name: "Banking Portfolio System",
@@ -144,6 +164,6 @@ export const projects: Project[] = [
       "Client-requested feature implementation and bug fixing for a Java-based banking portfolio system.",
     tech: ["Java", "Testing", "Debugging"],
     status: "AWS PH",
-    link: profile.github,
+    link: "",
   },
 ];

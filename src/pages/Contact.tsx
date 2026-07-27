@@ -1,4 +1,4 @@
-import { Download, Github, Mail } from "lucide-react";
+import { Download, Mail } from "lucide-react";
 import { PageShell } from "../components/PageShell";
 import { profile } from "../data";
 import { resumePath } from "../lib/routes";
@@ -20,10 +20,6 @@ export function Contact() {
           <a className="button primary" href={`mailto:${profile.email}`}>
             <Mail aria-hidden="true" />
             Email me
-          </a>
-          <a className="button secondary" href={profile.github} target="_blank" rel="noreferrer">
-            <Github aria-hidden="true" />
-            GitHub
           </a>
           <a className="button secondary" href={profile.linkedin} target="_blank" rel="noreferrer">
             LinkedIn
